@@ -8,6 +8,8 @@
 
 <xs:element name="jaar" type="xs:integer" />
 
+<xs:element name="rmr" type="xs:integer" />
+
 <xs:element name="artikel">
   <xs:complexType mixed="true">
     <xs:sequence>
@@ -43,8 +45,9 @@
 <xs:element name="titre">
   <xs:complexType  mixed="true">
     <xs:sequence>
-      <xs:element ref="introductieblok" minOccurs="0"  maxOccurs="unbounded"/>
-      <xs:element ref="section"         minOccurs="0"  maxOccurs="unbounded"/>
+      <xs:element ref="introductieblok" minOccurs="0" maxOccurs="unbounded"/>
+      <xs:element ref="artikel"         minOccurs="0" maxOccurs="unbounded"/>
+      <xs:element ref="section"         minOccurs="0" maxOccurs="unbounded"/>
     </xs:sequence>
     <xs:attribute name="nr"    type="xs:string" use="optional"/>
     <xs:attribute name="title" type="xs:string" use="optional"/>
