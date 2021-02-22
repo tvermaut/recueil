@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+<xs:element name="p">
+  <xs:complexType mixed="true">
+  </xs:complexType>
+</xs:element>
+
+<xs:element name="jaar" type="xs:integer" />
+
+<xs:element name="artikel">
+  <xs:complexType mixed="true">
+    <xs:sequence>
+      <xs:element ref="p" minOccurs="0"/>
+      <xs:element ref="jaar" minOccurs="0"/>
+      </xs:sequence>
+    <xs:attribute name="nr"    type="xs:integer" use="required"/>
+    <xs:attribute name="title" type="xs:string"  use="optional"/>
+  </xs:complexType>
+</xs:element>
+
+<xs:element name="section">
+  <xs:complexType>
+    <xs:sequence>
+      <xs:element ref="artikel" maxOccurs="unbounded" />
+    </xs:sequence>
+    <xs:attribute name="nr"    type="xs:integer" use="required"/>
+    <xs:attribute name="title" type="xs:string"  use="optional"/>
+  </xs:complexType>
+</xs:element>
+
+<xs:element name="introductieblok">
+  <xs:complexType mixed="true">
+    <xs:sequence>
+      <xs:element ref="p" minOccurs="0" maxOccurs="unbounded"/>
+      <xs:element ref="jaar" minOccurs="0"/>
+      </xs:sequence>
+    <xs:attribute name="nr"    type="xs:string" use="required"/>
+    <xs:attribute name="title" type="xs:string"  use="optional"/>
+  </xs:complexType>
+</xs:element>
+
+<xs:element name="titre">
+  <xs:complexType  mixed="true">
+    <xs:sequence>
+      <xs:element ref="introductieblok" minOccurs="0"  maxOccurs="unbounded"/>
+      <xs:element ref="section"         minOccurs="0"  maxOccurs="unbounded"/>
+    </xs:sequence>
+    <xs:attribute name="nr"    type="xs:string" use="optional"/>
+    <xs:attribute name="title" type="xs:string" use="optional"/>
+  </xs:complexType>
+</xs:element>
+
+<xs:element name="document">
+  <xs:complexType>
+    <xs:sequence>
+        <xs:element ref="titre" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:element>
+
+</xs:schema>

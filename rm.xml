@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="rm.xsl"?>
+<document
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="wettekst.xsd">
+  <titre title="Introduction">
+    <introductieblok nr="I"><p>Toutes les nations, dès l’origine de leur gouvernement, ont reconnu la nécessité de faire concourir les revenus particuliers aux dépenses générales de l’État.</p><p>Le mode le plus simple, et qui dut se présenter le premier, fut de demander à chaque citoyen une portion du produit des terres qu’il possédait ; cette portion se perçut d’abord en nature, puis en argent, devenu le signe représentatif de toutes les valeurs.</p><p>L’impôt sur les revenus des terres une fois établi, on dut chercher à le rendre égal pour tous.</p><p>Il devint nécessaire dès lors de constater la contenance du territoire, et de procéder à l’évaluation de ses revenus.</p><p>Ces deux opérations constituent ce que l’on nomme un cadastre.</p></introductieblok>
+    <introductieblok nr="II" title="Cadastres Pprojetés ou Entrepris"><p>Sous les premiers règnes de la précédente dynastie, la France était divisée en provinces, qui formaient de petits États indépendants. Chaque province sentit, dès le principe, le besoin d’un cadastre.</p>
+    <p><ul>
+    <li>Le Dauphiné en avait un sous ses anciens dauphins; Charles V en fit faire la révision en 1359.</li>
+    <li>En 1491, Charles VII avait résolu d’entreprendre le cadastre du royaume, divisé alors en quatre généralités : Languedoc, Languedoyl, Outre-Seine, et Normandie. Ce projet ne fut exécuté qu’en Languedoc.</li>
+    <li>En 1604, la vérification de l’arpentage de l’Agénois fut exécutée.</li>
+    <li>La Guienne avait un cadastre, dont la révision fut ordonnée en 1664.</li>
+    <li>En 1668, celle du cadastre du Condomois fut prescrite.</li>
+    <li>Colbert, en 1679, fit ordonner la formation d’un règlement uniforme pour la taille réelle, et en chargea M. d’Aguesseau, intendant général de Languedoc : la mort de Colbert, arrivée quatre ans après, fit abandonner ce projet.</li>
+    <li>M. de Chamillard, l’un des ses successeurs, l’avait repris ; mais les malheurs de la fin du règne de Louis XIV.le firent encore abandonner.</li>
+    <li>Plusieurs autres ministres des finances s’en occupèrent depuis ; et M. de Laverdy fit ordonner, en 1763, la confection d’un cadastre général de tous les biens-fonds, même de ceux de la couronne, des princes, des nobles ; du clergé ; &amp;c. Ce plan froissait trop d’intérêts pour ne pas rester sans exécution sous un gouvernement faible.</li></ul></p>
+    <p>Les avantages d’un cadastre étaient tellement reconnus, que chaque province entreprenait le sien dès qu’elle en trouvait quelques moyens.</p>
+    <p>C’est ainsi qu’il fut commencé dans l’Ile-de-France, dans la Champagne, et dans le Limousin.</p>
+    <p>A peine une administration provinciale fut-elle établie dans la Haute-Guienne, qu’elle s’occupa de cette opération.</p>
+    <p>Les autres assemblées provinciales, créées depuis, en formèrent également le projet, que leur courte existence fit abandonner.</p>
+    </introductieblok>
+    <introductieblok nr="II">
+
+      </introductieblok>
+  </titre>
+  <titre nr="VI" title="Expertise">
+    <section nr="1" title="Observations Préliminaires">
+      <artikel nr="411">Évaluer, d’après les principes établis dans le titre précédent, les revenus imposables de toutes les propriétés comprises dans la commune et rapportées sur le plan, constitue ce que l’on nomme l’expertise d’une commune.</artikel>
+      <artikel nr="412" title="Difficulté de l’Expertise.">Cette évaluation des revenus, réellement difficile en elle-même, le paraît encore plus dans l’opinion: le géomètre, qui mesure et représente sur le plan chaque propriété telle qu’il la voit sur le terrain, opère sur des vérités mathématiques; l’expert, chargé de constater un revenu qui se dérobe à ses regards, semble livré davantage à l’arbitraire.</artikel>
+    </section>
+  </titre>
+</document>
