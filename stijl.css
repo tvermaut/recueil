@@ -1,0 +1,14 @@
+.jaar{
+    color:#0000ff;
+    font-weight:bold;
+    }
+
+.datum{
+    background-color:rgba(0,0,255,0.2);
+    }
+
+.dagger{
+    display: inline-block;
+    font-weight:bold;
+    color:purple;
+    }
