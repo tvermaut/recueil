@@ -1,33 +1,110 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="rm.xsl"?>
-<document
-xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-xsi:schemaLocation="wettekst.xsd">
-  <titre title="Introduction">
-    <introductieblok nr="I"><p>Toutes les nations, dès l’origine de leur gouvernement, ont reconnu la nécessité de faire concourir les revenus particuliers aux dépenses générales de l’État.</p><p>Le mode le plus simple, et qui dut se présenter le premier, fut de demander à chaque citoyen une portion du produit des terres qu’il possédait ; cette portion se perçut d’abord en nature, puis en argent, devenu le signe représentatif de toutes les valeurs.</p><p>L’impôt sur les revenus des terres une fois établi, on dut chercher à le rendre égal pour tous.</p><p>Il devint nécessaire dès lors de constater la contenance du territoire, et de procéder à l’évaluation de ses revenus.</p><p>Ces deux opérations constituent ce que l’on nomme un cadastre.</p></introductieblok>
-    <introductieblok nr="II" title="Cadastres Pprojetés ou Entrepris"><p>Sous les premiers règnes de la précédente dynastie, la France était divisée en provinces, qui formaient de petits États indépendants. Chaque province sentit, dès le principe, le besoin d’un cadastre.</p>
-    <p><ul>
-    <li>Le Dauphiné en avait un sous ses anciens dauphins; Charles V en fit faire la révision en 1359.</li>
-    <li>En 1491, Charles VII avait résolu d’entreprendre le cadastre du royaume, divisé alors en quatre généralités : Languedoc, Languedoyl, Outre-Seine, et Normandie. Ce projet ne fut exécuté qu’en Languedoc.</li>
-    <li>En 1604, la vérification de l’arpentage de l’Agénois fut exécutée.</li>
-    <li>La Guienne avait un cadastre, dont la révision fut ordonnée en 1664.</li>
-    <li>En 1668, celle du cadastre du Condomois fut prescrite.</li>
-    <li>Colbert, en 1679, fit ordonner la formation d’un règlement uniforme pour la taille réelle, et en chargea M. d’Aguesseau, intendant général de Languedoc : la mort de Colbert, arrivée quatre ans après, fit abandonner ce projet.</li>
-    <li>M. de Chamillard, l’un des ses successeurs, l’avait repris ; mais les malheurs de la fin du règne de Louis XIV.le firent encore abandonner.</li>
-    <li>Plusieurs autres ministres des finances s’en occupèrent depuis ; et M. de Laverdy fit ordonner, en 1763, la confection d’un cadastre général de tous les biens-fonds, même de ceux de la couronne, des princes, des nobles ; du clergé ; &amp;c. Ce plan froissait trop d’intérêts pour ne pas rester sans exécution sous un gouvernement faible.</li></ul></p>
-    <p>Les avantages d’un cadastre étaient tellement reconnus, que chaque province entreprenait le sien dès qu’elle en trouvait quelques moyens.</p>
-    <p>C’est ainsi qu’il fut commencé dans l’Ile-de-France, dans la Champagne, et dans le Limousin.</p>
-    <p>A peine une administration provinciale fut-elle établie dans la Haute-Guienne, qu’elle s’occupa de cette opération.</p>
-    <p>Les autres assemblées provinciales, créées depuis, en formèrent également le projet, que leur courte existence fit abandonner.</p>
-    </introductieblok>
-<!--     <introductieblok nr="II">
-
-      </introductieblok> -->
-  </titre>
-  <titre nr="VI" title="Expertise">
-    <section nr="1" title="Observations Préliminaires">
-      <artikel nr="411">Évaluer, d’après les principes établis dans le titre précédent, les revenus imposables de toutes les propriétés comprises dans la commune et rapportées sur le plan, constitue ce que l’on nomme l’expertise d’une commune.</artikel>
-      <artikel nr="412" title="Difficulté de l’Expertise.">Cette évaluation des revenus, réellement difficile en elle-même, le paraît encore plus dans l’opinion: le géomètre, qui mesure et représente sur le plan chaque propriété telle qu’il la voit sur le terrain, opère sur des vérités mathématiques; l’expert, chargé de constater un revenu qui se dérobe à ses regards, semble livré davantage à l’arbitraire.</artikel>
-    </section>
+<document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="wettekst.xsd">
+    <titre title="Introduction">
+        <introductieblok nr="I">
+            <p>Toutes les nations, dès l’origine de leur gouvernement, ont reconnu la nécessité de faire concourir les revenus particuliers aux dépenses générales de l’État.</p>
+            <p>Le mode le plus simple, et qui dut se présenter le premier, fut de demander à chaque citoyen une portion du produit des terres qu’il possédait; cette portion se perçut d’abord en nature, puis en argent, devenu le signe représentatif de toutes les valeurs.</p>
+            <p>L’impôt sur les revenus des terres une fois établi, on dut chercher à le rendre égal pour tous.</p>
+            <p>Il devint nécessaire dès lors de constater la contenance du territoire, et de procéder à l’évaluation de ses revenus.</p>
+            <p>Ces deux opérations constituent ce que l’on nomme un cadastre.</p>
+            </introductieblok>
+        <introductieblok nr="II" title="Cadastres Pprojetés ou Entrepris">
+            <p>Sous les premiers règnes de la précédente dynastie, la France était divisée en provinces, qui formaient de petits États indépendants. Chaque province sentit, dès le principe, le besoin d’un cadastre.</p>
+            <p><ul>
+                <li>Le Dauphiné en avait un sous ses anciens dauphins; Charles V en fit faire la révision en 1359.</li>
+                <li>En 1491, Charles VII avait résolu d’entreprendre le cadastre du royaume, divisé alors en quatre généralités : Languedoc, Languedoyl, Outre-Seine, et Normandie. Ce projet ne fut exécuté qu’en Languedoc.</li>
+                <li>En 1604, la vérification de l’arpentage de l’Agénois fut exécutée.</li>
+                <li>La Guienne avait un cadastre, dont la révision fut ordonnée en 1664.</li>
+                <li>En 1668, celle du cadastre du Condomois fut prescrite.</li>
+                <li>Colbert, en 1679, fit ordonner la formation d’un règlement uniforme pour la taille réelle, et en chargea M. d’Aguesseau, intendant général de Languedoc : la mort de Colbert, arrivée quatre ans après, fit abandonner ce projet.</li>
+                <li>M. de Chamillard, l’un des ses successeurs, l’avait repris; mais les malheurs de la fin du règne de Louis XIV.le firent encore abandonner.</li>
+                <li>Plusieurs autres ministres des finances s’en occupèrent depuis; et M. de Laverdy fit ordonner, en 1763, la confection d’un cadastre général de tous les biens-fonds, même de ceux de la couronne, des princes, des nobles; du clergé; &amp;c. Ce plan froissait trop d’intérêts pour ne pas rester sans exécution sous un gouvernement faible.</li>
+                </ul></p>
+            <p>Les avantages d’un cadastre étaient tellement reconnus, que chaque province entreprenait le sien dès qu’elle en trouvait quelques moyens.</p>
+            <p>C’est ainsi qu’il fut commencé dans l’Ile-de-France, dans la Champagne, et dans le Limousin.</p>
+            <p>A peine une administration provinciale fut-elle établie dans la Haute-Guienne, qu’elle s’occupa de cette opération.</p>
+            <p>Les autres assemblées provinciales, créées depuis, en formèrent également le projet, que leur courte existence fit abandonner.</p>
+            </introductieblok>
+        <introductieblok nr="III" title="Établissement de la Contribution foncière.">
+            <p>En <jaar>1791</jaar>, la contribution foncière fut établie. Le comité d’impositions de l’assemblée constituante se donna beaucoup de soins pour parvenir à une juste répartition de cette contribution : plusieurs projets furent présentés et discutés ; on adopta celui qui parut le plus simple ; et, quelques mois après, des réclamations s’élevèrent de toutes parts.</p></introductieblok>
+        <introductieblok nr="IV" title="Cadastre décrété en 1791.">
+            <p>Pour les faire cesser, l’assemblée constituante décréta la confection d’un cadastre général ; mais les circonstances ne permirent pas de s’en occuper.</p>
+            <p>Des pétitions, des projets nombreux, furent présentés aux assemblées qui lui succédèrent.</p></introductieblok>
+        <introductieblok nr="V" title="Réclamations contre la Répartition.">
+            <p>Cependant les réclamations étaient générales sur l’inégalité de la répartition, soit de département à département, soit de commune à commune, soit enfin de propriétaire, et cet état de choses avait la plus fâcheuse influence sur la marche des recouvrements.</p>
+            <p>Un gouvernement réparateur ne pouvait laisser un mal aussi grave sans remède.</p>
+            <p>On essaya d’abord une mesure qui, sans atteindre le but, fut un premier pas vers le bien.</p></introductieblok>
+        <introductieblok nr="VI" title="Ordre d’une Refonte générale des Matrices de Rôles.">
+            <p>Une instruction ordonna la refonte générale des matrices de rôles;<bron>Instruction du <datum>22 janv.<jaar>1801</jaar></datum></bron> c’était un cadastre sans arpentage préalable des terres. Il exigeait, à l’exception du levé des plans, toutes les opérations qui se sont depuis exécutées.</p>
+            <p>Ce travail reposait sur le système tant de fois proposé et toujours reconnu impraticable, d’obtenir des propriétaires la déclaration exacte de leurs revenus. Ce simulacre de cadastre, dénué de sa base première, ne fut qu’une tentative inutile ; mais il devint le germe des idées qui allaient bientôt se développer et s’agrandir.</p></introductieblok>
+        <introductieblok nr="VII" title="Cadastre ordonné pour dix-huit cents Communes.">
+            <p>Les réclamations se multipliant de jour en jour, l’Empereur nomma une commission spéciale appelée à donner son avis sur les vues que le Ministre des finances avait soumises à Sa Majesté.</p>
+            <p>Cette commission, composée de membres tirés des diverses parties de l’Empire, reconnut qu’il n’existait, en effet, pour y parvenir, qu’un seul moyen, celui de la confection du cadastre général.</p>
+            <p>Mais effrayée de la durée et de la dépense d’une telle entreprise,<bron>Arrêté du Gouvernement du <datum>3 nov. <jaar>1802</jaar></datum></bron> elle se borna à proposer l’arpentage de dix-huit cents communes disséminées sur tous les points de la France, pour fixer ensuite, par analogie, les revenus de toutes les autres communes de l’Empire.</p></introductieblok>
+        <introductieblok nr="VIII" title="Cadastre par Masses de cultures.">
+            <p>Cet arpentage devait présenter, non toutes les propriétés en détail;<bron>Arrêté du Gouv. du <datum>3 nov. <jaar>1802</jaar></datum>.</bron> mais seulement les masses des différentes natures de cultures : ainsi une terre labourable de trente arpents, quoique partagée entre dix propriétaires, ne formait qu’une figure ou polygone du plan.</p>
+            <p>L’expertise ou évaluation des revenus devait également s’opérer par masses de cultures.</p>
+            </introductieblok>
+        <introductieblok nr="IX" title="Premiers travaux.">
+            <p>L’arpentage était confié,<bron>Arrêté du Gouv. du <datum>3 nov. <jaar>1802</jaar></datum>.</bron> dans chaque département, à un géomètre en chef, qui s’adjoignait des géomètres secondaires. On eut beaucoup de peine à trouver des sujets instruits. Des cours gratuits de géométrie pratique s’ouvrirent d’abord à Paris, ensuite dans les principaux départements.</p>
+            <p>Les instruments manquaient également. Le ministre chargea les six ingénieurs mécaniciens les plus distingués de Paris, de la fabrication de ces instruments, et en avança le prix aux géomètres, qui le remboursèrent par des retenues sur leurs indemnités.</p></introductieblok>
+        <introductieblok nr="X" title="Établissement du Cadastre général.">
+            <p>Dans ces circonstances, les progrès durent d’abord être très lents. A la fin de la seconde année, les dix-huit cents communes n’étaient pas encore toutes arpentées.</p>
+            <p>Le Ministre, en mettant cette situation sous les yeux de Sa Majesté, observa le peu de probabilité qu’il voyait à parvenir au perfectionnement de la répartition, en établissant le revenu foncier de toutes les communes d’après celui des dix-huit cents communes expertisées.</p>
+            <p>Un second arrêté du Gouvernement<bron>Arrêté du G."*du 20 oct.1893.</bron> confirma les dispositions du premier, et ordonna que les travaux continueraient à être exécutés dans toute l’étendue de l’empire.</p>
+            </introductieblok>
+        <introductieblok nr="XI" title="Premier Essai d’une Répartition générale.">
+            <p>Les dix-huit cents communes terminées,<bron>Circulaire du 24 février 1804.</bron> le Ministre traça aux préfets la marche qu’ils avaient à suivre pour en appliquer les résultats aux autres communes du département. Tous s’empressèrent d’exécuter ce travail ; mais tous, en l’envoyant, firent les représentations les plus fortes sur le danger d’en faire usage; tous assurèrent que, loin de remédier aux vices de la répartition, il ne ferait que les augmenter. Cette mesure devait être et fut abandonnée. Les travaux continuèrent.</p>
+            </introductieblok>
+        <introductieblok nr="XII" title="Expertises par Masses de cultures.">
+            <p>L’arpentage et l’expertise de toutes les communes, exécutés l’un et l’autre par masses de cultures, auraient sans doute donné la connaissance des forces respectives des communes, et par suite des départements, et fourni les moyens de perfectionner la répartition générale: mais on ne faisait rien encore pour la répartition individuelle; on ne remédiait point aux inégalités de contribuable à contribuable; et c’étaient précisément ces inégalités qui rendaient l’impôt plus onéreux et excitaient le plus de réclamations.</p>
+            <p>Le revenu de chaque commune une fois déterminé, il eût fallu que les propriétaires s’entendissent pour le répartir proportionnellement entre eux; mais comment espérer qu’ils y parvinssent, lorsque, depuis plusieurs siècles, on n’y était point arrivé;? Ainsi, après même que la répartition générale eût été perfectionnée, les plaintes individuelles n’auraient pas cessé de se faire entendre, sans que le Gouvernement eût eu aucun autre moyen d’y mettre un terme, que celui du cadastre parcellaire.</p>
+            </introductieblok>
+        <introductieblok nr="XIII" title="Expertises parcellaires sur Plans par Masses de cultures.">
+            <p>Il fallait néanmoins que l’indispensable nécessité de l’arpentage parcellaire fût démontrée jusqu’à l’évidence, pour proposer une opération qui devait occasionner une dépense aussi considérable.</p>
+            <p>Le Ministre, plutôt pour acquérir ce degré de conviction que dans l’espoir d’un plein succès, essaya de faire exécuter des expertises parcellaires sur des plans par masses de cultures.</p>
+            <p>La difficulté était de reconnaître dans chaque masse ou figure du plan, la portion qui appartenait à chaque propriétaire; de partager, par exemple, une terre labourable de trente arpents entre ses dix propriétaires, et d’assigner à chacun d’eux la contenance des terres qu’il y possédait.</p>
+            </introductieblok>
+        <introductieblok nr="XIV" title="Déclarations demandées aux Propriétaires.">
+            <p>Pour y parvenir, tous les propriétaires furent invités à donner la déclaration,<bron>Instruction du <datum>29 oct. <jaar>1805</jaar></datum>.</bron> non pas de leurs revenus, mais seulement de la contenance de leurs terres. Ce second renseignement paraissait plus facile à obtenir que le premier.</p>
+            <p>Les contenances partielles, ainsi déclarées, devaient former une contenance égale à celle indiquée par le plan.</p>
+            </introductieblok>
+        <introductieblok nr="XV" title="Insuffisance des Déclarations.">
+            <p>On eut à peine essayé l’exécution de ce travail,((Procès- verbaldes conférences sur le parcellaire)) que l’on se vit arrêté par des difficultés insurmontables : très peu de déclarations furent fournies ; elles se trouvèrent presque toutes inexactes ; leur réunion donna partout des contenances très inférieures à celles qui résultaient des plans par masses de cultures.</p>
+            <p>Le Ministre insista auprès des directeurs des contributions : tous, animés du désir de prouver leur dévouement, redoublèrent d’efforts ; plusieurs se rendirent dans les communes avec leurs employés, allèrent demander des déclarations de maison en maison, aidèrent à leur rédaction, salarièrent des indicateurs instruits. A force de travail et de soins, on parvint à avoir plusieurs matrices cadastrales dans chaque département.</p>
+            </introductieblok>
+        <introductieblok nr="XVI" title="Premiers rôles cadastraux.">
+            <p>Ces matrices cadastrales, encore imparfaites puisqu’elles n’assignaient pas à chaque propriétaire la juste contenance de ses possessions, produisirent cependant quelques résultats utiles ; elles remédièrent à une partie des inégalités dont on s’était plaint ; les rôles furent expédiés et mis en recouvrement ; ils n’excitèrent point de réclamations, parce qu’ils faisaient du moins cesser une partie des inconvénients les plus sensibles de l’ordre de choses qui existait antérieurement.</p>
+            <p>En effet, le Ministre ayant fait venir des états présentant, pour chaque commune, les noms et les cotes des dix contribuables qui, par l’effet de cette nouvelle répartition, éprouvaient les plus fortes augmentations et des dix qui éprouvaient les plus fortes diminutions, ces états, vérifiés et signés par les maires, prouvèrent que, dans la même commune, des propriétaires payaient précédemment le tiers, le quart, la moitié de leurs revenus, tandis que d’autres ne payaient que le vingtième, le cinquantième, le centième, et que tous se trouvaient ramenés, par l’effet du cadastre, à une proportion uniforme du huitième, du neuvième ou du dixième.</p>
+            </introductieblok>
+        <introductieblok nr="XVII" title="Conférences pour le Cadastre parcellaire.">
+            <p>Cependant, la difficulté d’obtenir des déclarations des propriétaires, celle plus grande encore de faire concorder les contenances partielles déclarées avec la contenance totale indiquée par le plan de masses, subsistaient dans toute leur force : elles étaient senties par-tout ; et de toutes parts les délibérations des conseils généraux, des conseils d’arrondissements et des conseils municipaux, appelaient la confection de l’arpentage parcellaire comme l’unique moyen de parvenir à rendre justice à tous: plusieurs communes avaient même déjà fait faire cette opération à leurs frais ; d’autres sollicitaient l’autorisation de s’imposer pour cet objet.</p>
+            <p>L’unanimité de ce vœu détermina, à la fin de <jaar>1807</jaar>, le Ministre des finances à former une réunion de directeurs des contributions et de géomètres en chef, présidée par M. delambre, secrétaire perpétuel de la classe des sciences exactes de l’Institut, à l’effet de délibérer sur le mode d’exécution du parcellaire.</p>
+            </introductieblok>
+        <introductieblok nr="XVIII" title="Établissement du Cadastre parcellaire.">
+            <p>De ces conférences est résulté un projet de règlement dont les bases soumises à l’Empereur ont obtenu l’approbation de Sa Majesté.</p>
+            <p>Ainsi l’expérience a ramené par degrés à l’idée de l’assemblée constituante, qui avait été aussi celle de Colbert et de plusieurs autres Ministres ; idée réalisée en Savoie et en Piémont, mais avec des imperfections qui ne se retrouveront pas dans le cadastre de l’Empire français.</p>
+            </introductieblok>
+        <introductieblok nr="XIX" title="Idée générale du cadastre parcellaire.">
+            <p>L’opération qui s’exécute actuellement en France se compose donc de l’arpentage parcellaire et de l’expertise parcellaire de toutes les communes.</p>
+            <p>Mesurer, sur une étendue de plus de quarante mille lieues carrées, plus de cent millions de parcelles ou propriétés séparées ; confectionner pour chaque commune un plan en feuilles d’atlas où sont reportées ces cent millions de parcelles, les classer toutes d’après le degré de fertilité du sol, évaluer le produit net de chacune d’elles ; réunir ensuite sous le nom de chaque propriétaire les parcelles éparses qui lui appartiennent ; déterminer, par la réunion de leur produits, son revenu total, et faire de ce revenu un allivrement qui sera désormais la base immuable de son imposition, ce qui doit l’affranchir de toutes les influences dont il avait eu si longtemps à se plaindre : tel est l’objet de cette opération, qui, depuis trois ans qu’elle est entreprise, a déjà donné des résultats qui n’ont plus permis d’en contester ni les avantages ni la possibilité de son exécution.</p>
+            </introductieblok>
+        </titre>
+    <titre nr="I" title="Principes du cadastre">
+        <artikel nr="1">Les contributions directes, relativement à leur assiette, sont distinguées en impôt de répartition.</artikel>
+        <artikel nr="2" title="Impôt de Répartition.">L’impôt de répartition est celui dont la somme totale, fixée d’avance, se répartit de degrés en degrés entre les départements, les arrondissements, les communes et les contribuables.</artikel>
+        <artikel nr="3" title="Impôt de Quotité.">L’impôt de quotité est celui où chaque contribuable étant cotisé d’après une proportion déterminée, la réunion des cotes forme le montant total de la contribution. Caractères distinctifs des deux modes d’Impôt.</artikel>
+        <artikel nr="4">Dans le premier mode, les cotes des contribuables résultent du montant de l’imposition ; dans le second, le montant de l’imposition résulte des côtes des contribuables. Dans l’un, le produit est assuré et la proportion incertaine ; dans l’autre, la proportion est fixe et le produit éventuel.</artikel>
+        <artikel nr="5" title="Solidarité dans l’Impôt de répartition.">Dans l’impôt de répartition, les contribuables doivent fournir entre eux la somme demandée à la commune, et se cotiser chacun de manière à parfaire cette somme ; ce genre d’impôt établit donc entre eux une véritable solidarité.</artikel>
+        </titre>
+    <titre nr="VI" title="Expertise">
+        <section nr="1" title="Observations Préliminaires">
+            <artikel nr="411">Évaluer, d’après les principes établis dans le titre précédent, les revenus imposables de toutes les propriétés comprises dans la commune et rapportées sur le plan, constitue ce que l’on nomme l’expertise d’une commune.</artikel>
+            <artikel nr="412" title="Difficulté de l’Expertise.">Cette évaluation des revenus, réellement difficile en elle-même, le paraît encore plus dans l’opinion: le géomètre, qui mesure et représente sur le plan chaque propriété telle qu’il la voit sur le terrain, opère sur des vérités mathématiques; l’expert, chargé de constater un revenu qui se dérobe à ses regards, semble livré davantage à l’arbitraire.</artikel>
+            <artikel nr="413" title="Expertise fondée sur des bases positives.">Cependant, si l’expertise ne peut reposer sur des bases aussi positives, aussi évidentes que l’arpentage, il est possible de lui tracer une marche telle, que l’estimateur soit conduit à la vérité par les procédés mêmes qu’il suit, et que la confiance que peut inspirer son caractère; soit justifiée encore par son opération elle-même.</artikel>
+            <artikel nr="414" title="Expertise opérée par des calculs abstraits et généraux.">C’est pour atteindre ce but, c’est pour faire reposer aussi l’expertise sur des vérités mathématiques, que le Gouvernement a d’abord entouré l’estimateur de tous les renseignements qui pouvaient lui être utiles ; qu’il lui a prescrit ensuite d’opérer, non sur chaque propriété individuellement, mais sur chaque nature de culture considérée abstraitement : ce n’est pas la terre labourable de tel propriétaire, le pré de tel autre, la vigne d’un troisième, que l’expert est chargé d’évaluer ; il est appelé à déterminer, d’une manière abstraite et générale, quel est le produit de l’arpent de telle culture et de telle classe.</artikel>
+            <artikel nr="415" title="Expertise libre de toute influence personnelle.">Par-là, l’expert est à l’abri de toute influence, de toute passion, puisque ni les propriétaires ni lui-même ne peuvent connaître quel effet ses opérations auront sur le revenu de chaque individu, qu’après que l’application en a été faite à chaque propriété : or cette application s’exécute lorsque l’expert a quitté la commune et terminé sa mission, et elle est confiée à d’autres agens<rmr>798</rmr>.</artikel>
+        </section>
   </titre>
 </document>
