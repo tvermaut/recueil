@@ -6,7 +6,7 @@
 <xsl:template match="/">
   <html>
     <head>
-        <link rel="stylesheet" type="text/css" href="stijl.css"/>
+        <link rel="stylesheet" type="text/css" href="https://tvermaut.github.io/recueil/stijl.css"/>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous" />
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
@@ -15,7 +15,7 @@
     <body>
       <h1>Recueil Méthodique</h1>
       <xsl:apply-templates/>
-      <script src="script.js" />
+      <script src="https://tvermaut.github.io/recueil/script.js" />
     </body>
   </html>
 </xsl:template>
