@@ -20,9 +20,9 @@ xsi:schemaLocation="wettekst.xsd">
     <p>A peine une administration provinciale fut-elle établie dans la Haute-Guienne, qu’elle s’occupa de cette opération.</p>
     <p>Les autres assemblées provinciales, créées depuis, en formèrent également le projet, que leur courte existence fit abandonner.</p>
     </introductieblok>
-    <introductieblok nr="II">
+<!--     <introductieblok nr="II">
 
-      </introductieblok>
+      </introductieblok> -->
   </titre>
   <titre nr="VI" title="Expertise">
     <section nr="1" title="Observations Préliminaires">
