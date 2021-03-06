@@ -30,12 +30,8 @@
   <div class="section-blok"><xsl:apply-templates/></div>
 </xsl:template>
 
-<xsl:template match="jaar">
-  <span class="jaar"><xsl:apply-templates/></span>
-</xsl:template>
-
-<xsl:template match="datum">
-  <span class="datum"><xsl:apply-templates/></span>
+<xsl:template match="date">
+  <span class="datum" title="@when"><xsl:apply-templates/></span>
 </xsl:template>
 
 <xsl:template match="bron">
